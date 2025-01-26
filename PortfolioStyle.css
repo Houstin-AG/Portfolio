@@ -1,0 +1,89 @@
+.gridContainer {
+    display:grid;
+    grid-template-columns: 25% 50% 25%;
+}
+
+.listGrid {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.twoGridStart {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+div {
+    word-wrap: break-word; 
+}
+.nameTitle {
+    color: rgb(255,255,255);
+    font-size: 125px;
+    text-align: center;
+    font-family: "Montserrat", serif;
+    background-color: rgb(44, 3, 76);
+    margin-left: auto;
+    margin-right: auto;       
+    width: 80%;
+    border-radius: 40px;
+    text-shadow: 0px 0px 40px rgb(157, 94, 201);
+    box-shadow: 0px 0px 20px 25px rgb(44, 3, 76);
+}
+p {
+    color: white;  
+    font-family: "Montserrat", serif;
+    font-size: 25px;
+}
+.listElement {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    color: white;
+    font-size: 25px;
+}
+.segmentTitle {
+    color: rgb(44, 3, 76);
+    font-size: 150px;
+    margin: 0%;
+    font-family: 'Times New Roman';
+    text-shadow: 2px 2px 5px rgb(157, 94, 201);
+}
+hr{
+    border: 2px solid rgb(23, 23, 23); 
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.buttonLink {
+    color: rgb(84,4,140);
+    width: 125px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 10px;
+    font-family: arial;
+    font-size: 25px;
+}
+.buttonLink:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.imageSelfStyle {
+    width:80%;
+    box-shadow: 0px 0px 20px 25px rgb(44, 3, 76);
+    border-radius: 100%;
+    border-color: rgb(44, 3, 76);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+.image_Content {
+    width:50px;
+    height:50px;
+}
+.link_Content {
+    text-decoration: none;
+    margin: 12px;
+}
+.link_Content:hover {
+    opacity: .5;
+}
